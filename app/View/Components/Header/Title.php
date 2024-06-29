@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Header;
 
 use Closure;
 use Illuminate\Contracts\View\View;
@@ -15,8 +15,8 @@ class Title extends Component
      */
     public function __construct()
     {
-        $title = 'Mantenha as suas etiquetas online com uma explicação clara das instruções de lavagem, secagem, como
-            passar, etc.';
+        $this->title = 'Mantenha as suas etiquetas online com uma explicação clara das instruções de lavagem, secagem,
+            como passar, etc.';
     }
 
     /**
@@ -24,6 +24,6 @@ class Title extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.title');
+        return view('components.header.title');
     }
 }

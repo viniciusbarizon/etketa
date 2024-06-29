@@ -10,13 +10,11 @@
     </head>
 
     <body class="bg-black">
-        <div class="container grid max-w-full mx-auto">
-            <x-logo />
-
-            <div class="bg-white lg:px-24 lg:py-16 lg:text-5xl px-12 py-8 text-center">
-                {{ __('Mantenha as suas etiquetas online com uma explicação clara das instruções de lavagem,
-                    secagem, como passar, etc.') }}
+        <header>
+            <div class="container grid max-w-full mx-auto">
+                <x-header.logo />
+                <x-header.title />
             </div>
-        </div>
+        </header>
     </body>
 </html>

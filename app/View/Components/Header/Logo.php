@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Header;
 
 use Closure;
 use Illuminate\Contracts\View\View;
@@ -15,7 +15,7 @@ class Logo extends Component
      */
     public function __construct()
     {
-        $this->path = 'resources/images/logo.png';
+        $this->path = 'resources/images/header/logo.png';
     }
 
     /**
@@ -23,6 +23,6 @@ class Logo extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.logo');
+        return view('components.header.logo');
     }
 }
