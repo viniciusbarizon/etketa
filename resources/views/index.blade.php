@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <title>
+            Etketa: {{ ('Guarde as suas etiquetas') }}
+        </title>
+
         <x-favicon />
 
         @vite('resources/css/app.css')

@@ -15,8 +15,8 @@ class Title extends Component
      */
     public function __construct()
     {
-        $this->title = 'Mantenha as suas etiquetas online com uma explicação clara das instruções de lavagem, secagem,
-            como passar, etc.';
+        $this->title = 'Guarde as suas etiquetas, convertemos os símbolos do guia da lavanderia para texto em uma
+            linguagem mais clara.';
     }
 
     /**
